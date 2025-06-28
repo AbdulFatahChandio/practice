@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Zaheer Ahmed</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
+
+  <header class="header">
+    <div class="container">
+      <h1>Hi, I'm <span class="highlight">[ Zaheer Ahmed ]</span></h1>
+      <p class="tagline">Web Developer | Designer | Programmer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+
+   <section id="profile-image" class="profile-image">
+  <div class="container">
+    <div class="image-wrapper">
+      <img src="my image.jpg" alt="Zaheer Ahmed" class="profile-img">
+    </div>
+    <p class="image-caption">Hi, I'm Zaheer! A Front-End Developer and Cybersecurity Enthusiast.</p>
+  </div>
+</section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+          Hello! My name is <span class="highlight">Zaheer</span>, and I am a  student currently studying in the collage at a private. I am deeply passionate about technology, design, and the evolving digital world.
+      </p>
+
+      <p>
+      Apart from my academic journey, I am pursuing my dream to become a skilled <span class="highlight">Front-End Developer</span>. I enjoy creating visually appealing, responsive, and user-friendly websites that combine design and functionality seamlessly. My interest in technology doesn’t stop there — I am also working towards a degree in <span class="highlight">Cybersecurity</span> to enhance my understanding of protecting digital environments.
+    </p>
+
+     <p>
+      I believe that a solid foundation in both <span class="highlight">development</span> and <span class="highlight">security</span> is key to thriving in today’s tech-driven era. My skills in front-end development include HTML, CSS, and JavaScript, and I’m constantly learning new frameworks and techniques to improve my craft.
+    </p>
+
+      <p>
+      My journey has been driven by curiosity, determination, and a commitment to personal growth. Here are some of the principles that inspire me:
+    </p>
+
+      <ul>
+      <li><strong>Innovation:</strong> Exploring new ways to solve problems creatively.</li>
+      <li><strong>Resilience:</strong> Facing challenges head-on and learning from experiences.</li>
+      <li><strong>Adaptability:</strong> Staying updated with the ever-changing technology landscape.</li>
+    </ul>
+
+         <p>
+      Looking ahead, my goal is to bridge the gap between design and security by building websites and applications that are not only beautiful but also secure and efficient. Thank you for visiting my portfolio, and I’d love to connect if you’d like to collaborate or know more about my work!
+    </p>
+
+
+
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="project photo.webp" alt="Project 1">
+          <h3>Project Title 1</h3>
+          <p>A brief description of this project.  </p>
+          <p>This my first  project</p>
+        </div>
+        <div class="project-card">
+          <img src="project 2.jpeg" alt="Project 2">
+          <h3>Project Title 2</h3>
+          <p>A brief description of this project.</p>
+          <p>This is my project on (AI)</p>
+        </div>
+        <div class="project-card">
+          <img src="project 3.jpeg" alt="Project 3">
+          <h3>Project Title 3</h3>
+          <p>A brief description of this project.</p>
+          <p>This is my project on (E-COMMERCE)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <p>© 2025 [Zaheer Ahmed]. All rights reserved.</p>
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/zaheer-ahmed" target="_blank" class="social-link">
+      <img src="linkedin-circle.svg" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/zaheer-ahmed" target="_blank" class="social-link">
+      <img src="github-logo.svg" alt="GitHub">
+    </a>
+    <a href="https://www.instagram.com/zaheer.ahmed" target="_blank" class="social-link">
+      <img src="Instagram_icon.png" alt="Instagram">
+    </a>
+  </div>
+</footer>
+</body>
+</html>
+</body>
+</html>
